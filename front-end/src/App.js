@@ -1,12 +1,14 @@
 import './App.css';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Profile from './profile/Profile';
 
 function App() {
   return (
     <div>
-      <h1 className='text-blue-600 font-bold text-center text-5xl' >Task Management Web App💥</h1>
-      <h1 className='text-blue-600 font-bold text-center text-5xl' >Task Management Web App💥</h1>
-      <h1 className='text-blue-600 font-bold text-center text-5xl' >Task Management Web App💥</h1>
-      <h1 className='text-blue-600 font-bold text-center text-5xl' >Task Management Web App💥</h1>
+      <Profile />
+      {/* <Signup /> */}
+      {/* < Login /> */}
     </div>
   );
 }
