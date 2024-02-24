@@ -1,16 +1,12 @@
-import './App.css';
-import Login from './components/Login';
-import Signup from './components/Signup';
-import Profile from './profile/Profile';
+
+import React from 'react'
 
 function App() {
   return (
     <div>
-      <Profile />
-      {/* <Signup /> */}
-      {/* < Login /> */}
+      <h1 className='text-5xl font-bold text-red-600'>Task management Web App</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
